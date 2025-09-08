@@ -1,8 +1,8 @@
 {
   "infos": {
-    "adress": "A_Definir <br/> A_Definir",
+    "adress": "Av. Washington Luiz, nº 2445,  <br/> Ed Torre Empresarial Washington Luiz  <br/>sala 101, 1° andar, Jd. Paulista,   <br/>Presidente Prudente - SP, CEP: 19023-450  ",
     "adressSecundario": "A_Definir",
-    "expediente": "Segunda a sexta-feira: <br/> A_Definir",
+    "expediente": "Segunda a sexta-feira: <br/> 9h às 18h",
     "expedienteSecundario": "A_Definir",
     "obs": "A_Definir"
   },
@@ -11,6 +11,7 @@
       "home": "Início",
       "service": "Serviços",
       "about": "Sobre Nós",
+      "blog": "Blog",
       "faq": "Perguntas Frequentes",
       "maps": "Mapa"
     },
@@ -18,42 +19,42 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir <span class=\"text-primary font-bold\">A_Definir</span>",
-    "subtitle": "A_Definir",
-    "ctaButtonText": "A_Definir",
+    "miniTag": "ADVOGADA TRABALHISTA",
+    "title": "Advocacia Trabalhista com <span class=\"text-primary font-bold\"> coragem e propósito!</span>",
+    "subtitle": "Defesa firme dos direitos do trabalhador, com ética, proximidade e resultados reais.",
+    "ctaButtonText": "Falar com a Advogada",
     "obsHero": {
-      "text": "A_Definir"
+      "text": "Atendimento presencial com hora marcada e online para todo Brasil"
     }
   },
   "features": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir",
-    "subtitle": "A_Definir",
+    "miniTag": "Áreas de Atuação",
+    "title": "Nossas especialidades Jurídicas",
+    "subtitle": "Conheça os principais ramos do Direito em que atuamos.",
     "card1": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Direito Trabalhista",
+      "subtitle": "Defesa e garantia de direitos nas relações de trabalho.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card2": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Direito Previdenciário",
+      "subtitle": "Apoio em aposentadorias, benefícios e revisões do INSS.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card3": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Direito Eleitoral",
+      "subtitle": "Orientação e defesa em questões ligadas a eleições.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card4": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Consultoria Jurídica",
+      "subtitle": "Assessoria estratégica para decisões seguras e legais.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir",
@@ -75,28 +76,28 @@
     }
   },
   "maps": {
-    "minitag": "A_Definir",
-    "title": "A_Definir",
-    "subtitle": "A_Definir",
-    "embedsrc": "A_Definir"
+    "minitag": "LOCALIZAÇÃO",
+    "title": "Encontre-nos em Presidente Prudente - SP",
+    "subtitle": "Visite nosso endereço e confira no mapa abaixo como chegar facilmente.",
+    "embedsrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3263.1108790399376!2d-51.406909224712834!3d-22.115786179819693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9493f43bf0cce76f%3A0x61f810e968266a12!2sTorre%20Empresarial%20Washington%20Luiz!5e1!3m2!1spt-BR!2sbr!4v1757364607180!5m2!1spt-BR!2sbr"
   },
   "about": {
     "imagem": {
       "alt": "imagem about"
     },
-    "miniTag": "A_Definir",
-    "title": "A_Definir",
-    "subtitle": "A_Definir",
+    "miniTag": "QUEM É A DRA. VIVIANE PINHEIRO",
+    "title": "Mais de 18 anos de experiência oferecendo defesa ética, humana e eficaz.",
+    "subtitle": "Mais de 18 anos de experiência oferecendo defesa ética, humana e eficaz.",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph":"A_Definir",
-    "modal": "a_Definir",
-    "ctaButtonAriaLabel": "",
+    "paragraph": "Sou Viviane Pinheiro, advogada há quase duas décadas, sempre dedicada a garantir que cada cliente tenha um atendimento justo, próximo e de confiança.",
+    "modal": "Sou Viviane Pinheiro, advogada há quase duas décadas, sempre dedicada a garantir que cada cliente tenha um atendimento justo, próximo e de confiança. <br/><br/> Tenho especialização em Direito do Trabalho e Previdenciário, além de atuar no Direito Eleitoral e no Direito Sistêmico, com uma visão mais humana e completa das questões jurídicas. <br/><br/> Minha maior experiência está no Direito do Trabalho. Acompanho de perto as mudanças da lei para defender com segurança os direitos de trabalhadores que buscam respeito e resultados reais. <br/><br/>",
+    "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
     "aboutSocial": {
-      "miniTag": "A_Definir",
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
-      "labelInstagram": "A_Definir",
+      "miniTag": "REDES SOCIAIS",
+      "title": "Conecte-se agora mesmo",
+      "subtitle": "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
+      "labelInstagram": "Siga-me no Instagram",
       "labelFacebook": "A_Definir",
       "labelLinkedin": "A_Definir",
       "labelX": "A_Definir"
@@ -136,9 +137,9 @@
     }
   },
   "blog": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir",
-    "subtitle": "A_Definir",
+    "miniTag": "BLOG",
+    "title": "Informação jurídica ao seu alcance",
+    "subtitle": "A_DeAcompanhe conteúdos exclusivos para manter-se sempre informado.finir",
     "labelCards": "A_Definir",
     "label": "A_Definir",
     "blogLink": "A_Definir"
