@@ -18,12 +18,12 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir <span class=\"text-primary font-bold\">A_Definir</span>",
-    "subtitle": "A_Definir",
-    "ctaButtonText": "A_Definir",
+    "miniTag": "ADVOGADA TRABALHISTA",
+    "title": "Advocacia Trabalhista com <span class=\"text-primary font-bold\"> coragem e propósito!</span>",
+    "subtitle": "Defesa firme dos direitos do trabalhador, com ética, proximidade e resultados reais.",
+    "ctaButtonText": "Falar com a Advogada",
     "obsHero": {
-      "text": "A_Definir"
+      "text": "Atendimento presencial com hora marcada e online para todo Brasil"
     }
   },
   "features": {
@@ -90,7 +90,7 @@
     "buttonModalLabelAbout": "Continuar lendo",
     "paragraph": "A_Definir",
     "modal": "a_Definir",
-    "ctaButtonAriaLabel": "",
+    "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
     "aboutSocial": {
       "miniTag": "A_Definir",
