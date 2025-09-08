@@ -11,6 +11,7 @@
       "home": "Início",
       "service": "Serviços",
       "about": "Sobre Nós",
+      "blog": "Blog",
       "faq": "Perguntas Frequentes",
       "maps": "Mapa"
     },
@@ -75,10 +76,10 @@
     }
   },
   "maps": {
-    "minitag": "A_Definir",
-    "title": "A_Definir",
-    "subtitle": "A_Definir",
-    "embedsrc": "A_Definir"
+    "minitag": "LOCALIZAÇÃO",
+    "title": "Encontre-nos em Presidente Prudente - SP",
+    "subtitle": "Visite nosso endereço e confira no mapa abaixo como chegar facilmente.",
+    "embedsrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3263.1108790399376!2d-51.406909224712834!3d-22.115786179819693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9493f43bf0cce76f%3A0x61f810e968266a12!2sTorre%20Empresarial%20Washington%20Luiz!5e1!3m2!1spt-BR!2sbr!4v1757364607180!5m2!1spt-BR!2sbr"
   },
   "about": {
     "imagem": {
