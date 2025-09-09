@@ -34,14 +34,26 @@ export default function Maps({ colorMode }) {
           <SectionHeader
             className="text-center"
             miniTitle={t("maps.minitag")}
-            sectionHeaderTitle={t("maps.title")}
-            sectionHeaderSubtitle={t("maps.subtitle")}
+            sectionHeaderTitle={
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: t("maps.title"),
+                }}
+              />
+            }
+            sectionHeaderSubtitle={
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: t("maps.subtitle"),
+                }}
+              />
+            }
             color="dark"
             type=""
             titleColorSet={titleColor}
             subtitleColorSet={titleColor}
           />
-          <div className="relative w-full h-auto bg-no-repeat bg-cover shadow-custom-opacity shadow-shadowMaps/50 desktop1:bg-center tablet1:w-full rounded-xl">
+          <div className="relative w-full h-auto bg-no-repeat bg-cover shadow-custom-opacity shadow-shadowMaps/10 desktop1:bg-center tablet1:w-full rounded-xl">
             <div className="opacity-90">
               <iframe
                 src={t("maps.embedsrc")}
