@@ -77,8 +77,8 @@
   },
   "maps": {
     "minitag": "LOCALIZAÇÃO",
-    "title": "Encontre-nos em Presidente Prudente - SP",
-    "subtitle": "Visite nosso endereço e confira no mapa abaixo como chegar facilmente.",
+    "title": "<span class=\"text-title4\">Encontre-nos em Presidente Prudente - SP</span>",
+    "subtitle": "<span class=\"text-paragraph5\">Visite nosso endereço e confira no mapa abaixo como chegar facilmente.</span>",
     "embedsrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3263.1108790399376!2d-51.406909224712834!3d-22.115786179819693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9493f43bf0cce76f%3A0x61f810e968266a12!2sTorre%20Empresarial%20Washington%20Luiz!5e1!3m2!1spt-BR!2sbr!4v1757364607180!5m2!1spt-BR!2sbr"
   },
   "about": {
@@ -139,9 +139,9 @@
   "blog": {
     "miniTag": "BLOG",
     "title": "Informação jurídica ao seu alcance",
-    "subtitle": "A_DeAcompanhe conteúdos exclusivos para manter-se sempre informado.finir",
+    "subtitle": "Acompanhe conteúdos exclusivos para manter-se sempre informado.",
     "labelCards": "A_Definir",
-    "label": "A_Definir",
+    "label": "Clique aqui para ver todas as matérias",
     "blogLink": "A_Definir"
   },
   "faq": {
