@@ -47,7 +47,7 @@ function LinksNavegationFooter({ mode = "blog" }) {
       const to = id === "inicio" ? "/" : `/${id.toLowerCase()}`;
       return (
         <RouterLink to={to} className="cursor-pointer">
-          <span className="inline-block h-[48px] hover:underline hover:scale-110 transition">
+          <span className="inline-block h-auto hover:underline hover:scale-110 transition">
             {label}
           </span>
         </RouterLink>
@@ -60,7 +60,7 @@ function LinksNavegationFooter({ mode = "blog" }) {
       <div className="flex justify-between full opacity-90">
         <div className="w-[46%] flex flex-col gap-y-[16px]">
           {firstHalf.map(({ id, label }) => (
-            <div key={id} className="h-[36px] hover:underline">
+            <div key={id} className="h-[48px] hover:underline">
               {renderLink(id, label)}
             </div>
           ))}
@@ -68,7 +68,7 @@ function LinksNavegationFooter({ mode = "blog" }) {
 
         <div className="w-[46%] flex flex-col gap-y-[16px]">
           {secondHalf.map(({ id, label }) => (
-            <div key={id} className="h-[36px] hover:underline">
+            <div key={id} className="h-[48px] hover:underline">
               {renderLink(id, label)}
             </div>
           ))}
