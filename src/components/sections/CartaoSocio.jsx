@@ -188,7 +188,7 @@ function CartaoSocio() {
                 {/* Nome do Sócio */}
                 <div className="w-full m-auto text-center leading-5 py-[32px] flex flex-col">
                   <h1 className="text-paragraph5 font-bold font-mainFont">
-                    Dr. {socio.nome} {socio.sobrenome}
+                    Dra. {socio.nome} {socio.sobrenome}
                   </h1>
                   <h3 className="text-center font-secondFont text-paragraph5 mt-2">
                     {socio.função}
