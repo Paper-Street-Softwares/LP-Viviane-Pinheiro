@@ -46,6 +46,7 @@ import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.webp";
 import { Briefcase, Gavel } from "lucide-react";
 import { Users } from "lucide-react";
 import { FileText } from "lucide-react";
+import Socio1 from "../assets/imgs/team/socio1.webp";
 
 const currentYear = new Date().getFullYear();
 
@@ -902,6 +903,51 @@ const content = {
             ),
             link3: "https://wa.me/+556596241854",
           },
+        },
+      },
+    },
+    socios: {
+      socio1: {
+        image: Socio1,
+        nome: "Viviane",
+        rota: "Viviane",
+        sobrenome: "Pinheiro",
+        empresa: "OAB - 287.928/SP",
+        função: "Proprietária",
+        telefone: "",
+        whatsapp: "",
+        email: "",
+        github: "",
+        description: (
+          <p>
+            Advogada há quase duas décadas, sempre dedicada a garantir que cada
+            cliente tenha um atendimento justo, próximo e de confiança.
+            <br /> <br />
+            Tenho especialização em Direito do Trabalho e Previdenciário, além
+            de atuar no Direito Eleitoral e no Direito Sistêmico, com uma visão
+            mais humana e completa das questões jurídicas.
+            <br /> <br />
+            Minha maior experiência está no Direito do Trabalho. Acompanho de
+            perto as mudanças da lei para defender com segurança os direitos de
+            trabalhadores e empresários que buscam resultados reais e segurança
+            jurídica.
+          </p>
+        ),
+        social: {
+          instagram: "",
+          facebook: "",
+          linkedin: "",
+          x: "",
+          tiktok: "",
+          githubSocial: "",
+          whatsappSocial: "18997335295",
+          emailSocial: "vivianep.elias@adv.oabsp.org.br",
+        },
+        empresaSocial: {
+          instagram: "",
+          facebook: "",
+          linkedin: "",
+          site: "",
         },
       },
     },
