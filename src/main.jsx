@@ -18,6 +18,7 @@ import "./styles/backgrounds.css";
 import BlogPosts from "./components/sections/BlogPosts.jsx";
 import Maps from "./components/sections/Maps.jsx";
 import AboutInstagram from "./components/sections/AboutInstagram.jsx";
+import CartaoSocio from "./components/sections/CartaoSocio.jsx";
 
 // Altere aqui para "LP" ou "site"
 const mode = "LP"; // só muda isso e o resto se adapta
@@ -27,6 +28,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     {mode === "LP" ? (
       <Routes>
         <Route path="/" element={<Index mode={mode} />} />
+        <Route path="/:nome" element={<CartaoSocio />} />
+
         {/* <Route path="/" element={<Lp01 />} /> */}
         {/* <Route path="/whatsapp" element={<WhatsAppLinks />} /> */}
 
