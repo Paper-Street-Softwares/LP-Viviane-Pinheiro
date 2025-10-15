@@ -913,7 +913,7 @@ const content = {
         rota: "Viviane",
         sobrenome: "Pinheiro",
         empresa: "OAB - 287.928/SP",
-        função: "Proprietária",
+        função: "Sócia-Proprietária ",
         telefone: "",
         whatsapp: "",
         email: "",
