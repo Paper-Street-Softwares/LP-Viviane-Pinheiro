@@ -2,25 +2,18 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
 import Button from "../../interactives/Button";
-import content from "../../../content/content";
+import { infos } from "../../../content/content";
 
-const RedesSociais = ({
-  facebook,
-  instagram,
-  linkedin,
-  tiktok,
-  x,
-  withAnimation = true,
-}) => {
+const RedesSociais = ({ withAnimation = true }) => {
   const { t } = useTranslation();
   const icons = [];
 
-  if (facebook) {
+  if (infos.facebookProfile && infos.facebookProfile !== "A_Definir") {
     icons.push(
       <Button
         key="facebook"
         label={t("about.aboutSocial.labelFacebook")}
-        buttonLink={content.texts.links.facebook}
+        buttonLink={`https://www.facebook.com/${infos.facebookProfile}`}
         icon={
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -40,13 +33,33 @@ const RedesSociais = ({
       />
     );
   }
+  if (infos.tiktokProfile && infos.tiktokProfile !== "A_Definir") {
+    icons.push(
+      <Button
+        key="tiktok"
+        label={t("about.aboutSocial.labelTikTok")}
+        buttonLink={`https://www.tiktok.com/@${infos.tiktokProfile}`}
+        icon={
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 30 30"
+            fill="currentColor"
+          >
+            <path d="M24,4H6C4.895,4,4,4.895,4,6v18c0,1.105,0.895,2,2,2h18c1.105,0,2-0.895,2-2V6C26,4.895,25.104,4,24,4z M22.689,13.474 c-0.13,0.012-0.261,0.02-0.393,0.02c-1.495,0-2.809-0.768-3.574-1.931c0,3.049,0,6.519,0,6.577c0,2.685-2.177,4.861-4.861,4.861 C11.177,23,9,20.823,9,18.139c0-2.685,2.177-4.861,4.861-4.861c0.102,0,0.201,0.009,0.3,0.015v2.396c-0.1-0.012-0.197-0.03-0.3-0.03 c-1.37,0-2.481,1.111-2.481,2.481s1.11,2.481,2.481,2.481c1.371,0,2.581-1.08,2.581-2.45c0-0.055,0.024-11.17,0.024-11.17h2.289 c0.215,2.047,1.868,3.663,3.934,3.811V13.474z" />
+          </svg>
+        }
+      />
+    );
+  }
 
-  if (instagram) {
+  if (infos.instagramProfile && infos.instagramProfile !== "A_Definir") {
     icons.push(
       <Button
         key="instagram"
         label={t("about.aboutSocial.labelInstagram")}
-        buttonLink={content.texts.links.instagram}
+        buttonLink={`https://www.instagram.com/${infos.instagramProfile}`}
         icon={
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -69,12 +82,12 @@ const RedesSociais = ({
     );
   }
 
-  if (linkedin) {
+  if (infos.linkeDinProfile && infos.linkeDinProfile !== "A_Definir") {
     icons.push(
       <Button
         key="linkedin"
         label={t("about.aboutSocial.labelLinkedin")}
-        buttonLink={content.texts.links.linkedin}
+        buttonLink={`https://www.linkedin.com/in/${infos.linkeDinProfile}`}
         icon={
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -97,33 +110,12 @@ const RedesSociais = ({
     );
   }
 
-  if (tiktok) {
-    icons.push(
-      <Button
-        key="tiktok"
-        label={t("about.aboutSocial.labelTikTok")}
-        buttonLink={content.texts.links.tiktokProfile}
-        icon={
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="20"
-            height="20"
-            viewBox="0 0 30 30"
-            fill="currentColor"
-          >
-            <path d="M24,4H6C4.895,4,4,4.895,4,6v18c0,1.105,0.895,2,2,2h18c1.105,0,2-0.895,2-2V6C26,4.895,25.104,4,24,4z M22.689,13.474 c-0.13,0.012-0.261,0.02-0.393,0.02c-1.495,0-2.809-0.768-3.574-1.931c0,3.049,0,6.519,0,6.577c0,2.685-2.177,4.861-4.861,4.861 C11.177,23,9,20.823,9,18.139c0-2.685,2.177-4.861,4.861-4.861c0.102,0,0.201,0.009,0.3,0.015v2.396c-0.1-0.012-0.197-0.03-0.3-0.03 c-1.37,0-2.481,1.111-2.481,2.481s1.11,2.481,2.481,2.481c1.371,0,2.581-1.08,2.581-2.45c0-0.055,0.024-11.17,0.024-11.17h2.289 c0.215,2.047,1.868,3.663,3.934,3.811V13.474z" />
-          </svg>
-        }
-      />
-    );
-  }
-
-  if (x) {
+  if (infos.x && infos.x !== "A_Definir") {
     icons.push(
       <Button
         key="x"
         label={t("about.aboutSocial.labelX")}
-        buttonLink={content.texts.links.x}
+        buttonLink={`https://twitter.com/${infos.x}`}
         icon={
           <svg
             viewBox="0 0 21.573 19.5"

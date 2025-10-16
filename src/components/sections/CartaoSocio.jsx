@@ -193,6 +193,9 @@ function CartaoSocio() {
                   <h3 className="text-center font-secondFont text-paragraph5 mt-2">
                     {socio.função}
                   </h3>
+                  <h3 className="text-center font-secondFont font-medium text-paragraph3 mt-2">
+                    {socio.oab}
+                  </h3>
                 </div>
 
                 <hr className="border-b-2 border-black/20 " />
@@ -230,7 +233,9 @@ function CartaoSocio() {
         </div>
 
         <footer>
-          <div className="w-full justify-center items-center flex m-auto text-paragraph2 bg-primary text-white p-4">
+          <div
+            className={`w-full justify-center items-center flex m-auto text-paragraph2 bg-primary p-4 ${textColor}`}
+          >
             Cartão Digital desenvolvido por Paper Street
           </div>
         </footer>
