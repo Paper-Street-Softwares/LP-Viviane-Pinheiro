@@ -50,10 +50,10 @@ export default function AboutInstagram({ socialPrint, colorMode }) {
           <div>
             <RedesSociais
               instagram={true}
-              facebook={false}
-              x={false}
-              tiktok={false}
-              linkedin={false}
+              facebook={true}
+              x={true}
+              tiktok={true}
+              linkedin={true}
             />
           </div>
         </div>

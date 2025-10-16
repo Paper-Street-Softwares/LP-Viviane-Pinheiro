@@ -95,10 +95,10 @@ export const infos = {
   ),
   obs: <span className="italic">A Definir</span>,
   instagramProfile: "viviane.pinheiro.adv", // Sem o @
-  facebookProfile: "A_Definir",
-  linkeDinProfile: "A_Definir",
-  x: "A_Definir",
-  tiktokProfile: "A_Definir",
+  facebookProfile: "",
+  linkeDinProfile: "",
+  x: "",
+  tiktokProfile: "",
 
   whatsappDefaultMessage:
     "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
@@ -912,7 +912,8 @@ const content = {
         nome: "Viviane",
         rota: "Viviane",
         sobrenome: "Pinheiro",
-        empresa: "OAB - 287.928/SP",
+        empresa: "",
+        oab: "OAB - 287.928/SP",
         função: "Sócia-Proprietária ",
         telefone: "",
         whatsapp: "",
@@ -947,7 +948,7 @@ const content = {
           instagram: "",
           facebook: "",
           linkedin: "",
-          site: "",
+          site: "https://lp-viviane-pinheiro.vercel.app/",
         },
       },
     },
