@@ -123,7 +123,7 @@ function CartaoSocio() {
           <SalvarContatoButton socio={socio} />
           <Button
             onClick={() => setVisible(true)}
-            className="rounded-[3px] p-1"
+            className="rounded-[3px] p-1  "
             icon={
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -157,16 +157,16 @@ function CartaoSocio() {
             {/* Perfis profissionais */}
             <div className={`w-full  rounded-mds`}>
               <div
-                className={`w-full flex flex-col tablet1:w-[205px] m-auto gap-4 ${textColor}`}
+                className={`w-full flex flex-col tablet1:w-[205px] desktop1:w-[377px] m-auto gap-4 ${textColor}`}
               >
                 {/* Empresa */}
                 <div className="flex flex-col rounded-md py-[32px]">
                   {/* Logo e descrição */}
-                  <div className="">
+                  <div className="w-full">
                     <img
                       src={content.texts.navbar.logo.img}
                       alt={content.texts.navbar.logo.alt}
-                      className="  rounded-[5px] m-auto mb-6"
+                      className="tablet1:max-w-[245px] rounded-[5px] m-auto mb-6"
                     />
                   </div>
                   <h3 className="text-center font-secondFont font-bold text-paragraph5">
@@ -181,14 +181,14 @@ function CartaoSocio() {
                 </div>
 
                 {/* Imagem principal */}
-                <div className="w-full tablet1:max-w-[248px] m-auto">
+                <div className="w-full m-auto">
                   <img src={socio.image} alt="" className="rounded-xl" />
                 </div>
 
                 {/* Nome do Sócio */}
                 <div className="w-full m-auto text-center leading-5 py-[32px] flex flex-col">
                   <h1 className="text-paragraph5 font-bold font-mainFont">
-                    Dra. {socio.nome} {socio.sobrenome}
+                    {socio.nome} {socio.sobrenome}
                   </h1>
                   <h3 className="text-center font-secondFont text-paragraph5 mt-2">
                     {socio.função}
@@ -217,7 +217,7 @@ function CartaoSocio() {
           </div>
 
           {/* Informações Pessoais */}
-          {/* <div className={`w-full tablet1:w-[425px] m-auto  ${textColor}`}>
+          {/* <div className={`w-full tablet1:w-[425px] m-auto pt-8  ${textColor}`}>
             <div className="bg-quinary p-6 rounded-xl">
               <h1 className=" text-[16px] font-secondFont text-center pb-[16px]">
                 Informações Pessoais:
@@ -230,7 +230,7 @@ function CartaoSocio() {
         </div>
 
         <footer>
-          <div className="w-full justify-center items-center flex m-auto text-paragraph2 bg-primary text-labelButtons p-4">
+          <div className="w-full justify-center items-center flex m-auto text-paragraph2 bg-primary text-white p-4">
             Cartão Digital desenvolvido por Paper Street
           </div>
         </footer>
