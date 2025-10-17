@@ -254,18 +254,18 @@ function CartaoRedeSocial({ tipo = "contato", socio }) {
 
   const labels = {
     github: "GitHub",
-    whatsapp: "WhatsApp",
+    whatsapp: content.texts.infos.phone,
     telefone: "Telefone",
     site: "Site",
-    email: "E-mail",
+    email: content.texts.infos.email,
     instagram: "Instagram",
     facebook: "Facebook",
     tiktok: "TikTok",
     x: "X",
     linkedin: "LinkedIn",
     githubSocial: "GitHub",
-    whatsappSocial: "WhatsApp",
-    emailSocial: "E-mail",
+    whatsappSocial: content.texts.infos.phone,
+    emailSocial: content.texts.infos.email,
   };
 
   const links =
