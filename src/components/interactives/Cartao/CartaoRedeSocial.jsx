@@ -265,7 +265,7 @@ function CartaoRedeSocial({ tipo = "contato", socio }) {
     linkedin: "LinkedIn",
     githubSocial: "GitHub",
     whatsappSocial: content.texts.infos.phone,
-    emailSocial: content.texts.infos.email,
+    emailSocial: content.texts.socios.socio1.social.emailSocial,
   };
 
   const links =
